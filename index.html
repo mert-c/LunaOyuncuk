@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <title>Luna!</title>
+    <style>
+      html, body, frame{
+          min-height: 100%;
+          height: 96%;
+          min-width: 100%;
+          border: none;
+          margin: 0;
+      }
+      #form{
+          width: 100%;
+          display: block;
+          margin: auto;
+          text-align: center;
+          height: 100%;
+          top: 50%;
+          position: absolute;
+      }
+      #linkler{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 25px;
+      }
+      #btn{
+        display: block;
+        margin: auto;
+        text-align: center;
+      }
+
+  </style>
+  </head>
+  <body id="body">
+    <div id="form">
+    <input id="linkler" type="text" placeholder="bağa link ver">
+    <button id="btn">tıklaaaağ</button>
+  </div>
+    <!-- <iframe id="frame" src="https://wordwall.net/tr/embed/a4dfd2a849ab4e5e9de72834c83bfae9?themeId=29&templateId=30" width="100%" height="100%" frameborder="0" allowfullscreen></iframe> -->
+    <script src="renderer.js"></script>
+  </body>
+</html>
